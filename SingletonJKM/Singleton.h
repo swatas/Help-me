@@ -3,7 +3,6 @@
 class Singleton {
 public:
 	static Singleton* Instance();
-	void writeToLogFile();
 
 private:
 	Singleton() {};  // Private so that it can  not be called

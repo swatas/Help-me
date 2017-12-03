@@ -9,8 +9,8 @@ using namespace std;
 
 int main()
 {
-	Singleton::Instance()->writeToLogFile();
-	system("pause");
-    return 0;
+	Singleton::Instance()>writeToLogFile()
+	system("pause")
+    return 0
 }
 
